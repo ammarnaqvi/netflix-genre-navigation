@@ -5,5 +5,9 @@
  */
 
 module.exports = {
-  /* Your site config here */
+    siteMetadata: {
+        title: `Netflix Genre Navigation`,
+        description: `Browse through Netflix's hidden categories`,
+    },
+    plugins: ["gatsby-plugin-postcss", "gatsby-plugin-react-helmet"],
 }
