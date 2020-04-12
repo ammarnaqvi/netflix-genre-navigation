@@ -1,7 +1,7 @@
 import React from "react"
 
 const Category = ({ category }) => (
-    <article className="relative w-64 p-5 mt-8 bg-white">
+    <article className="relative w-64 p-5 mt-8 overflow-hidden bg-white rounded-lg">
         <h3 className="mb-8 text-lg font-semibold text-gray-700">
             {category.title}
         </h3>

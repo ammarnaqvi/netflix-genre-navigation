@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
                 <meta name="description" content={description} />
             </Helmet>
             <Header />
-            <main className="w-11/12 max-w-6xl mx-auto mt-8 mb-16 ">
+            <main className="w-11/12 max-w-6xl mx-auto mt-8 mb-16">
                 {children}
             </main>
             <footer className="w-11/12 max-w-6xl mx-auto text-white">
