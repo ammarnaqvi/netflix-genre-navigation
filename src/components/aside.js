@@ -13,6 +13,7 @@ const Aside = () => {
             {categories.map((category) => (
                 <Category key={category.id} category={category} />
             ))}
+            <div className="mt-8"></div>
             <footer className="absolute bottom-0 mx-5 text-sm text-footer bg-primary">
                 &copy; Made by Ammar, Designed by Ashir
             </footer>
