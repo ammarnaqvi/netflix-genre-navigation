@@ -16,7 +16,9 @@ const Layout = ({ children }) => {
             <Header />
             <div className="flex">
                 <Aside />
-                <main className="w-11/12 max-w-6xl mt-8 mb-16">{children}</main>
+                <main className="w-full px-6 py-10 text-white bg-main">
+                    {children}
+                </main>
             </div>
         </>
     )

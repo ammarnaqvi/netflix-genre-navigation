@@ -1,0 +1,16 @@
+.subcategory:hover {
+    border: 1px solid #ffffff;
+}
+
+.netflix {
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    transition: ease-in-out 200ms;
+}
+
+.subcategory:hover > .netflix {
+    height: auto;
+    opacity: 1;
+    margin-top: 0.5rem;
+}

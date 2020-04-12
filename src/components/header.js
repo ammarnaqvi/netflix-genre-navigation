@@ -28,7 +28,6 @@ const Header = () => (
                 <g transform="translate(1 1)">
                     <circle fill="none" cx="8" cy="8" r="8" />
                     <line
-                        class="a"
                         x1="4.35"
                         y1="4.35"
                         transform="translate(13.65 13.65)"

@@ -1,9 +1,13 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 const Category = ({ category }) => (
-    <h3 className="flex items-center w-full h-10 px-5 text-sm text-white bg-transparent hover:bg-secondary">
+    <Link
+        to={`/category/${category.slug}`}
+        className="flex items-center w-full h-10 px-5 text-sm text-white bg-transparent hover:bg-secondary"
+    >
         {category.title}
-    </h3>
+    </Link>
 )
 
 export default Category

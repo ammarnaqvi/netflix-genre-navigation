@@ -5,6 +5,5 @@
 @import 'tailwindcss/utilities';
 
 body {
-    background: #141414;
     font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, sans-serif;
 }
