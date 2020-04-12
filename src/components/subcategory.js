@@ -6,7 +6,7 @@ const SubCategory = ({ title, id }) => (
         href={`https://www.netflix.com/browse/genre/${id}`}
         target="_blank"
         rel="noopener noreferrer"
-        className={`flex flex-wrap items-center content-center justify-center h-32 px-5 mt-5 text-sm text-center text-white bg-te ${Styles.subcategory}`}
+        className={`flex flex-wrap items-center content-center justify-center h-32 px-5 mt-5 text-sm text-center text-white border border-te bg-te ${Styles.subcategory}`}
     >
         <div className="w-full">{title}</div>
         <div
