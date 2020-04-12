@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 const Header = () => (
     <header className="flex items-center h-16 antialiased bg-primary">
