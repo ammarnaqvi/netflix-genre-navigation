@@ -4,7 +4,6 @@ import useCategories from '../hooks/use-categories'
 
 const Aside = () => {
     const categories = useCategories()
-
     return (
         <aside className="relative w-88 bg-primary">
             <h2 className="px-5 my-4 text-sm font-medium uppercase text-te">
