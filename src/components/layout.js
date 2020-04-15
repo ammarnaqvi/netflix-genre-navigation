@@ -12,6 +12,10 @@ const Layout = ({ children }) => {
                 <html lang="en" />
                 <title> {title} </title>
                 <meta name="description" content={description} />
+                <link
+                    href="https://fonts.googleapis.com/css2?family=Heebo&display=swap"
+                    rel="stylesheet"
+                />
             </Helmet>
             <Header />
             <div className="flex">

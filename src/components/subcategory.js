@@ -10,7 +10,7 @@ const SubCategory = ({ title, id }) => (
     >
         <div className="w-full">{title}</div>
         <div
-            className={`text-sm font-medium uppercase text-secondary ${Styles.netflix}`}
+            className={`text-sm font-medium uppercase text-footer ${Styles.netflix}`}
         >
             View on Netflix
         </div>

@@ -1,8 +1,7 @@
 import React from 'react'
-import useCategories from '../hooks/use-categories'
+import Search from './search'
 
 const Header = () => {
-    const categories = useCategories()
     return (
         <header className="flex items-center h-16 antialiased bg-primary">
             <a
@@ -20,7 +19,7 @@ const Header = () => {
             <h1 className="mr-32 text-sm font-medium text-white">
                 Category Lookup
             </h1>
-            <form className="relative flex items-center border text-secondary border-secondary focus-within:border-white focus-within:bg-black focus-within:text-white">
+            <form className="relative flex items-center border text-secondary border-secondary focus-within:border-2 focus-within:border-white focus-within:bg-black focus-within:text-white">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20.414"
@@ -37,12 +36,7 @@ const Header = () => {
                         />
                     </g>
                 </svg>
-                <input
-                    name="search"
-                    placeholder="Category"
-                    autoComplete="off"
-                    className="h-10 pl-12 bg-transparent w-112 focus:outline-none"
-                />
+                <Search />
             </form>
         </header>
     )

@@ -6,6 +6,7 @@ module.exports = {
             primary: '#202020',
             secondary: '#707070',
             te: '#383838',
+            sd: '#b3b3b3',
             footer: '#525252',
             main: '#141414',
             devil: '#666666',
@@ -39,6 +40,7 @@ module.exports = {
         },
     },
     variants: {
+        borderWidth: ['focus-within'],
         borderColor: ['responsive', 'hover', 'focus', 'focus-within'],
         backgroundColor: ['responsive', 'hover', 'focus', 'focus-within'],
         textColor: ['responsive', 'hover', 'focus', 'focus-within'],

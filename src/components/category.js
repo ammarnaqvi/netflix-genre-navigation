@@ -4,7 +4,8 @@ import { Link } from 'gatsby'
 const Category = ({ category }) => (
     <Link
         to={`/category/${category.slug}`}
-        className="flex items-center w-full h-10 px-5 text-sm text-white bg-transparent hover:bg-secondary"
+        activeClassName="bg-secondary"
+        className="flex items-center w-full h-10 px-5 text-sm text-white bg-transparent hover:text-sd"
     >
         {category.title}
     </Link>
