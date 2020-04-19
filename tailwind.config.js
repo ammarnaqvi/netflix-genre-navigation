@@ -1,6 +1,10 @@
 module.exports = {
     theme: {
-        extend: {},
+        extend: {
+            maxHeight: {
+                '112': '28rem',
+            },
+        },
         colors: {
             transparent: 'transparent',
             primary: '#202020',
@@ -25,6 +29,7 @@ module.exports = {
             '8': '2rem',
             '10': '2.5rem',
             '12': '3rem',
+            '14': '3.5rem',
             '16': '4rem',
             '20': '5rem',
             '24': '6rem',

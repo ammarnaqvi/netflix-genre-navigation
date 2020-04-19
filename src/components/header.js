@@ -19,7 +19,7 @@ const Header = () => {
             <h1 className="mr-32 text-sm font-medium text-white">
                 Category Lookup
             </h1>
-            <form className="relative flex items-center border text-secondary border-secondary focus-within:border-2 focus-within:border-white focus-within:bg-black focus-within:text-white">
+            <form className="flex items-center border text-secondary border-secondary focus-within:border-2 focus-within:border-white focus-within:bg-black focus-within:text-white">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20.414"
