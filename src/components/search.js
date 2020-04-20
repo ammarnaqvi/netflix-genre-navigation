@@ -31,7 +31,7 @@ const Search = () => {
                 name="search"
                 placeholder="Category"
                 autoComplete="off"
-                className="z-10 h-10 pl-12 bg-transparent w-112 focus:outline-none focus:placeholder-white"
+                className="z-10 h-10 pl-12 bg-transparent lg:w-112 focus:outline-none focus:placeholder-white"
                 onKeyDown={(e) => {
                     if (e.key === 'Escape') {
                         setShowResults(false)

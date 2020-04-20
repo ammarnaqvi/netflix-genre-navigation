@@ -3,7 +3,7 @@ import Search from './search'
 
 const Header = () => {
     return (
-        <header className="flex items-center h-16 antialiased bg-primary">
+        <header className="flex flex-wrap items-center h-32 antialiased md:h-16 bg-primary">
             <a
                 href="https://www.netflix.com/"
                 target="_blank"
@@ -16,10 +16,10 @@ const Header = () => {
                     />
                 </svg>
             </a>
-            <h1 className="mr-32 text-sm font-medium text-white">
+            <h1 className="text-sm font-medium text-white lg:mr-32">
                 Category Lookup
             </h1>
-            <form className="flex items-center border text-secondary border-secondary focus-within:border-2 focus-within:border-white focus-within:bg-black focus-within:text-white">
+            <form className="flex items-center w-full mx-5 border md:w-112 text-secondary border-secondary focus-within:border-2 focus-within:border-white focus-within:bg-black focus-within:text-white">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20.414"
