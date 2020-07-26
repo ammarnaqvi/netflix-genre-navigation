@@ -2,3 +2,4 @@
   from = "/"
   to = "/category/action-&-adventure"
   status = 301
+  force = true
